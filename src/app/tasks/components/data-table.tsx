@@ -67,6 +67,7 @@ export function DataTable<TData, TValue>({
     getFacetedRowModel: getFacetedRowModel(),
     getFacetedUniqueValues: getFacetedUniqueValues(),
   });
+console.log(table , "table");
 
   return (
     <div className="space-y-4">
